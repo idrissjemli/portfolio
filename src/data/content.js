@@ -31,6 +31,28 @@ export const nav = [
   { id: "contact", label: "Contact" },
 ];
 
+/* ---------------------------------------------------------------------- 0. CV */
+
+/**
+ * Chemins des CV et version des fichiers.
+ *
+ * Les navigateurs gardent un PDF en cache : sans ce parametre, l'iframe
+ * continue d'afficher l'ancienne version apres remplacement du fichier dans
+ * `public/cv/`. Il suffit d'incrementer `cvVersion` a chaque remplacement.
+ *
+ * Defini ici, avant la section « Accueil », parce que le bouton du hero pointe
+ * lui aussi vers le CV francais et doit servir la meme URL.
+ */
+export const cvVersion = 2;
+
+const cvChemins = {
+  fr: "/cv/cv-fr.pdf",
+  en: "/cv/cv-en.pdf",
+};
+
+/** URL d'un CV, parametre de version compris. */
+export const cvUrl = (langue) => `${cvChemins[langue]}?v=${cvVersion}`;
+
 /* ------------------------------------------------------------------ 1. Accueil */
 
 export const hero = {
@@ -51,7 +73,7 @@ export const hero = {
     // est celui affiche dans la page, c'est donc lui qui est propose ici.
     {
       label: "Télécharger mon CV",
-      href: "/cv/cv-fr.pdf",
+      href: cvUrl("fr"),
       variant: "secondary",
       download: true,
     },
@@ -339,11 +361,11 @@ export const certifications = [
 /* ----------------------------------------------------------------------- 8. CV */
 
 export const cv = {
-  /** Affiche dans un <iframe> au sein de la page. */
-  embedded: "/cv/cv-fr.pdf",
+  /** Affiche dans un <iframe> au sein de la page. Voir `cvVersion` en tete de fichier. */
+  embedded: cvUrl("fr"),
   downloads: [
-    { label: "CV (FR)", href: "/cv/cv-fr.pdf", lang: "fr" },
-    { label: "CV (EN)", href: "/cv/cv-en.pdf", lang: "en" },
+    { label: "CV (FR)", href: cvUrl("fr"), lang: "fr" },
+    { label: "CV (EN)", href: cvUrl("en"), lang: "en" },
   ],
 };
 
