@@ -326,22 +326,10 @@ export const projects = [
 
 export const certifications = [
   {
-    title: "AWS Academy Graduate — Cloud Foundations",
-    org: "AWS Academy",
-    image: "/certifs/certif-aws-cloud-foundations.jpg",
-    link: "https://www.credly.com/badges/507fcadd-5e66-470e-a947-3f85510354fb",
-  },
-  {
-    title: "CCNA — Switching, Routing & Wireless Essentials",
-    org: "Cisco Networking Academy",
-    image: "/certifs/certif-ccnav7-cisco.jpg",
-    link: "https://www.credly.com/badges/4a965bd8-b149-4aa7-afa2-f2b2be73a674",
-  },
-  {
-    title: "Introduction to Cybersecurity",
-    org: "Cisco Networking Academy",
-    image: "/certifs/certif-cybersecurity.jpg",
-    link: "https://www.credly.com/badges/2edcbc9b-c009-4f7c-90d3-825fb6c312e1",
+    title: "Associate Data Analyst",
+    org: "DataCamp",
+    image: "/certifs/certif-data-analyst-datacamp.png",
+    link: "https://www.datacamp.com/certificate/DAA0017279984809",
   },
   {
     title: "SQL Associate",
@@ -350,10 +338,35 @@ export const certifications = [
     link: "https://www.datacamp.com/certificate/SQA0013105080684",
   },
   {
+    title: "AWS Academy Graduate — Cloud Foundations",
+    org: "AWS Academy",
+    image: "/certifs/certif-aws-cloud-foundations.png",
+    link: "https://www.credly.com/badges/507fcadd-5e66-470e-a947-3f85510354fb",
+  },
+  {
+    title: "CCNA — Switching, Routing & Wireless Essentials",
+    org: "Cisco Networking Academy",
+    image: "/certifs/certif-ccnav7-cisco.png",
+    link: "https://www.credly.com/badges/4a965bd8-b149-4aa7-afa2-f2b2be73a674",
+  },
+  {
+    title: "Introduction to Cybersecurity",
+    org: "Cisco Networking Academy",
+    image: "/certifs/certif-cybersecurity.png",
+    link: "https://www.credly.com/badges/2edcbc9b-c009-4f7c-90d3-825fb6c312e1",
+  },
+  {
+    title: "Graph Developer — Associate",
+    org: "Apollo GraphQL",
+    image: "/certifs/certif-apollo-graph-developer.jpg",
+    // Lien de vérification à récupérer sur apollographql.com → profil → certification
+    link: null,
+  },
+  {
     title: "Hashgraph Developer",
     org: "The Hashgraph Association",
     image: "/certifs/certif-hashgraph-developer.jpg",
-    // CONTENU.md : « (pas de lien public) » — la vignette ne sera pas cliquable.
+    // Pas de lien de vérification public
     link: null,
   },
 ];

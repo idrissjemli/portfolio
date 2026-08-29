@@ -181,10 +181,12 @@ Spécialité ERP & Business Intelligence
 
 | Titre | Organisme | Image | Lien de vérification |
 |---|---|---|---|
-| AWS Academy Graduate — Cloud Foundations | AWS Academy | `certifs/certif-aws-cloud-foundations.jpg` | https://www.credly.com/badges/507fcadd-5e66-470e-a947-3f85510354fb |
-| CCNA — Switching, Routing & Wireless Essentials | Cisco Networking Academy | `certifs/certif-ccnav7-cisco.jpg` | https://www.credly.com/badges/4a965bd8-b149-4aa7-afa2-f2b2be73a674 |
-| Introduction to Cybersecurity | Cisco Networking Academy | `certifs/certif-cybersecurity.jpg` | https://www.credly.com/badges/2edcbc9b-c009-4f7c-90d3-825fb6c312e1 |
+| Associate Data Analyst | DataCamp | `certifs/certif-data-analyst-datacamp.png` | https://www.datacamp.com/certificate/DAA0017279984809 |
 | SQL Associate | DataCamp | `certifs/certif-sql-datacamp.jpg` | https://www.datacamp.com/certificate/SQA0013105080684 |
+| AWS Academy Graduate — Cloud Foundations | AWS Academy | `certifs/certif-aws-cloud-foundations.png` | https://www.credly.com/badges/507fcadd-5e66-470e-a947-3f85510354fb |
+| CCNA — Switching, Routing & Wireless Essentials | Cisco Networking Academy | `certifs/certif-ccnav7-cisco.png` | https://www.credly.com/badges/4a965bd8-b149-4aa7-afa2-f2b2be73a674 |
+| Introduction to Cybersecurity | Cisco Networking Academy | `certifs/certif-cybersecurity.png` | https://www.credly.com/badges/2edcbc9b-c009-4f7c-90d3-825fb6c312e1 |
+| Graph Developer — Associate | Apollo GraphQL | `certifs/certif-apollo-graph-developer.jpg` | (pas de lien public) |
 | Hashgraph Developer | The Hashgraph Association | `certifs/certif-hashgraph-developer.jpg` | (pas de lien public) |
 
 ---
