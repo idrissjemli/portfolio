@@ -213,6 +213,11 @@ export const education = [
     place: "Ariana",
     period: "2021 – 2026",
     specialty: "Spécialité ERP & Business Intelligence",
+    document: {
+      label: "Voir le diplôme",
+      href: "/certifs/diplome-ing.pdf",
+      download: true,
+    },
   },
 ];
 
@@ -230,6 +235,7 @@ export const timeline = [
     place: item.place,
     period: item.period,
     description: item.specialty,
+    document: item.document,
   })),
 ];
 

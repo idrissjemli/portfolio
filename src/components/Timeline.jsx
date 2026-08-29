@@ -25,6 +25,29 @@ export default function Timeline() {
           </p>
 
           <p className="mt-3 leading-relaxed text-muted">{item.description}</p>
+
+          {item.document && (
+            <div className="mt-4 flex flex-wrap gap-3">
+              <a
+                href={item.document.href}
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center rounded-md border border-accent bg-accent/10 px-3 py-2 text-sm font-medium text-body transition hover:bg-accent/20"
+              >
+                {item.document.label}
+              </a>
+
+              {item.document.download && (
+                <a
+                  href={item.document.href}
+                  download
+                  className="inline-flex items-center rounded-md border border-line px-3 py-2 text-sm text-muted transition hover:border-accent hover:text-body"
+                >
+                  Télécharger
+                </a>
+              )}
+            </div>
+          )}
         </li>
       ))}
     </ol>
