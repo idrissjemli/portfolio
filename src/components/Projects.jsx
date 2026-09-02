@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { projectFilters, projects } from '../data/content.js'
-import { GitHubIcon } from './Icons.jsx'
+import { ExternalLinkIcon, GitHubIcon } from './Icons.jsx'
 
 const TOUS = projectFilters[0]
 
@@ -82,19 +82,32 @@ export default function Projects() {
                     ))}
                   </ul>
 
-                  {/* `github` vaut null tant qu'aucun depot n'est connu. */}
-                  {projet.github && (
-                    <a
-                      href={projet.github}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      aria-label={`Code source de ${projet.title} sur GitHub`}
-                      className="mt-5 inline-flex items-center gap-2 self-start rounded-md border border-line px-4 py-2 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
-                    >
-                      <GitHubIcon className="h-4 w-4" />
-                      GitHub
-                    </a>
-                  )}
+                  <div className="mt-5 flex flex-wrap gap-2">
+                    {projet.github && (
+                      <a
+                        href={projet.github}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label={`Code source de ${projet.title} sur GitHub`}
+                        className="inline-flex items-center gap-2 rounded-md border border-line px-4 py-2 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
+                      >
+                        <GitHubIcon className="h-4 w-4" />
+                        GitHub
+                      </a>
+                    )}
+                    {projet.demo && (
+                      <a
+                        href={projet.demo}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label={`Démo en ligne de ${projet.title}`}
+                        className="inline-flex items-center gap-2 rounded-md border border-line px-4 py-2 text-sm font-semibold transition-colors hover:border-accent hover:text-accent"
+                      >
+                        <ExternalLinkIcon className="h-4 w-4" />
+                        Démo en ligne
+                      </a>
+                    )}
+                  </div>
                 </div>
               </article>
             </li>

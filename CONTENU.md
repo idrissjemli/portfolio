@@ -126,12 +126,16 @@ Spécialité ERP & Business Intelligence
 - **Catégories** : Data, Full-stack
 - **Image** : `projets/biat-monitoring.jpg`
 - **GitHub** : https://github.com/idrissjemli/biat-monitoring
+- **Démo en ligne** : https://biat.idrissjemli.engineer
 - **Stack** : SQL Server · Python · Scikit-learn · Flask · Angular · Power BI · Docker · LLM
 - **Description** :
   Plateforme de supervision de l'activité monétique d'une banque, réalisée comme projet de fin
   d'études. Entrepôt de données en modélisation étoile, détection automatique d'anomalies par
   machine learning, alertes par email, tableaux de bord Power BI et assistant conversationnel
-  capable d'interroger la base en langage naturel. Entièrement dockerisé et reproductible.
+  capable d'interroger la base en langage naturel. Entièrement dockerisé et reproductible. La
+  démonstration en ligne tourne sur un échantillon de 50 000 transactions, tandis que le projet
+  a été développé sur 1 048 575 transactions. Les identifiants de démonstration (demo / 123456,
+  lecture seule) sont affichés sur la page de connexion.
 
 ### STEG Intern Management — Gestion des stagiaires
 - **Catégories** : Full-stack

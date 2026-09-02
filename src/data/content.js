@@ -252,6 +252,7 @@ export const projects = [
     categories: ["Data", "Full-stack"],
     image: "/projets/biat-monitoring.jpg",
     github: "https://github.com/idrissjemli/biat-monitoring",
+    demo: "https://biat.idrissjemli.engineer",
     stack: [
       "SQL Server",
       "Python",
@@ -263,7 +264,7 @@ export const projects = [
       "LLM",
     ],
     description:
-      "Plateforme de supervision de l'activité monétique d'une banque, réalisée comme projet de fin d'études. Entrepôt de données en modélisation étoile, détection automatique d'anomalies par machine learning, alertes par email, tableaux de bord Power BI et assistant conversationnel capable d'interroger la base en langage naturel. Entièrement dockerisé et reproductible.",
+      "Plateforme de supervision de l'activité monétique d'une banque, réalisée comme projet de fin d'études. Entrepôt de données en modélisation étoile, détection automatique d'anomalies par machine learning, alertes par email, tableaux de bord Power BI et assistant conversationnel capable d'interroger la base en langage naturel. Entièrement dockerisé et reproductible. La démonstration en ligne tourne sur un échantillon de 50 000 transactions, tandis que le projet a été développé sur 1 048 575 transactions. Les identifiants de démonstration (demo / 123456, lecture seule) sont affichés sur la page de connexion.",
   },
   {
     id: "steg-intern-management",
