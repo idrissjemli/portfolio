@@ -43,7 +43,7 @@ export const nav = [
  * Defini ici, avant la section « Accueil », parce que le bouton du hero pointe
  * lui aussi vers le CV francais et doit servir la meme URL.
  */
-export const cvVersion = 2;
+export const cvVersion = 3;
 
 const cvChemins = {
   fr: "/cv/cv-fr.pdf",
