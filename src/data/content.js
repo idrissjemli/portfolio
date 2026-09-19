@@ -46,8 +46,8 @@ export const nav = [
 export const cvVersion = 3;
 
 const cvChemins = {
-  fr: "/cv/cv-fr.pdf",
-  en: "/cv/cv-en.pdf",
+    fr: "/cv/cv_fr.pdf",
+    en: "/cv/cv_en.pdf",
 };
 
 /** URL d'un CV, parametre de version compris. */
